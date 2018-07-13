@@ -1,13 +1,17 @@
-package hello;
+package hello.controller;
 
 import java.util.concurrent.atomic.AtomicLong;
+
+import hello.bean.Greeting;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 public class GreetingController {
-
+    @Value("${p.name}")
+    private String name;
     private static final String template = "Hello, %s!";
     private final AtomicLong counter = new AtomicLong();
 
@@ -15,5 +19,9 @@ public class GreetingController {
     public Greeting greeting(@RequestParam(value="name", defaultValue="World") String name) {
         return new Greeting(counter.incrementAndGet(),
                             String.format(template, name));
+    }
+    @RequestMapping("/say")
+    public String sayHello(){
+        return name;
     }
 }

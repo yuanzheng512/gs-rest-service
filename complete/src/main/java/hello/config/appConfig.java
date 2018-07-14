@@ -1,5 +1,7 @@
 package hello.config;
 
+import hello.controller.HelloService;
+import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 /**
@@ -7,4 +9,9 @@ import org.springframework.context.annotation.Configuration;
  */
 @Configuration
 public class appConfig {
+
+    @Bean
+    public HelloService helloService(){
+       return new HelloService();
+    }
 }

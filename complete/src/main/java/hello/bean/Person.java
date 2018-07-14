@@ -11,7 +11,7 @@ import javax.validation.constraints.Email;
  * Created by ASUS on 2018/7/13.
  */
 @Component
-@PropertySource(value = "classpath:person.properties")
+@PropertySource(value = "classpath:config/person.properties")
 @ConfigurationProperties(prefix = "person")
 @Validated
 public class Person {

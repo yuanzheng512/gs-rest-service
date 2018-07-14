@@ -1,0 +1,41 @@
+2018-07-14 13:39:47.898  INFO 17676 --- [main] hello.springbootTest                     : Starting springbootTest on DESKTOP-79FIIUQ with PID 17676 (started by ASUS in H:\web\springboot\springboot-study\complete)
+2018-07-14 13:39:47.901 DEBUG 17676 --- [main] hello.springbootTest                     : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-14 13:39:47.903  INFO 17676 --- [main] hello.springbootTest                     : The following profiles are active: dev
+2018-07-14 13:39:47.945  INFO 17676 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@105dc5: startup date [Sat Jul 14 13:39:47 CST 2018]; root of context hierarchy
+2018-07-14 13:39:49.590  INFO 17676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-14 13:39:49.800  INFO 17676 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@105dc5: startup date [Sat Jul 14 13:39:47 CST 2018]; root of context hierarchy
+2018-07-14 13:39:49.874  INFO 17676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/say]}" onto public java.lang.String hello.controller.GreetingController.sayHello()
+2018-07-14 13:39:49.875  INFO 17676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting]}" onto public hello.bean.Greeting hello.controller.GreetingController.greeting(java.lang.String)
+2018-07-14 13:39:49.878  INFO 17676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-14 13:39:49.879  INFO 17676 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-14 13:39:49.905  INFO 17676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-14 13:39:49.905  INFO 17676 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-14 13:39:49.955  INFO 17676 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2018-07-14 13:39:50.069  INFO 17676 --- [main] hello.springbootTest                     : Started springbootTest in 2.552 seconds (JVM running for 3.447)
+2018-07-14 13:39:50.171 DEBUG 17676 --- [main] hello.springbootTest                     : this is debug ******************
+2018-07-14 13:39:50.171 TRACE 17676 --- [main] hello.springbootTest                     : this is trace******************
+2018-07-14 13:39:50.171  INFO 17676 --- [main] hello.springbootTest                     : this is info******************
+2018-07-14 13:39:50.171  WARN 17676 --- [main] hello.springbootTest                     : this is warn******************
+2018-07-14 13:39:50.171 ERROR 17676 --- [main] hello.springbootTest                     : this is error******************
+2018-07-14 13:39:50.188  INFO 17676 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@105dc5: startup date [Sat Jul 14 13:39:47 CST 2018]; root of context hierarchy
+2018-07-14 13:40:43.293  INFO 10388 --- [main] hello.springbootTest                     : Starting springbootTest on DESKTOP-79FIIUQ with PID 10388 (started by ASUS in H:\web\springboot\springboot-study\complete)
+2018-07-14 13:40:43.293 DEBUG 10388 --- [main] hello.springbootTest                     : Running with Spring Boot v2.0.3.RELEASE, Spring v5.0.7.RELEASE
+2018-07-14 13:40:43.295  INFO 10388 --- [main] hello.springbootTest                     : The following profiles are active: dev
+2018-07-14 13:40:43.330  INFO 10388 --- [main] o.s.w.c.s.GenericWebApplicationContext   : Refreshing org.springframework.web.context.support.GenericWebApplicationContext@105dc5: startup date [Sat Jul 14 13:40:43 CST 2018]; root of context hierarchy
+2018-07-14 13:40:44.851  INFO 10388 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-14 13:40:45.061  INFO 10388 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.web.context.support.GenericWebApplicationContext@105dc5: startup date [Sat Jul 14 13:40:43 CST 2018]; root of context hierarchy
+2018-07-14 13:40:45.133  INFO 10388 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/say]}" onto public java.lang.String hello.controller.GreetingController.sayHello()
+2018-07-14 13:40:45.135  INFO 10388 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/greeting]}" onto public hello.bean.Greeting hello.controller.GreetingController.greeting(java.lang.String)
+2018-07-14 13:40:45.138  INFO 10388 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2018-07-14 13:40:45.138  INFO 10388 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2018-07-14 13:40:45.166  INFO 10388 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-14 13:40:45.166  INFO 10388 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2018-07-14 13:40:45.214  INFO 10388 --- [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2018-07-14 13:40:45.332  INFO 10388 --- [main] hello.springbootTest                     : Started springbootTest in 2.416 seconds (JVM running for 3.467)
+2018-07-14 13:40:45.434 DEBUG 10388 --- [main] hello.springbootTest                     : this is debug ******************
+2018-07-14 13:40:45.435 TRACE 10388 --- [main] hello.springbootTest                     : this is trace******************
+2018-07-14 13:40:45.435  INFO 10388 --- [main] hello.springbootTest                     : this is info******************
+2018-07-14 13:40:45.435  WARN 10388 --- [main] hello.springbootTest                     : this is warn******************
+2018-07-14 13:40:45.435 ERROR 10388 --- [main] hello.springbootTest                     : this is error******************
+2018-07-14 13:40:45.447  INFO 10388 --- [main] hello.springbootTest                     : Person{name='xiaohonga4435bcf-f5dc-49ff-b3f8-c6a6a780a269', age=21, email='74514@sina.com'}
+2018-07-14 13:40:45.451  INFO 10388 --- [Thread-2] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@105dc5: startup date [Sat Jul 14 13:40:43 CST 2018]; root of context hierarchy

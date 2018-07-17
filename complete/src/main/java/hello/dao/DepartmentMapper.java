@@ -5,10 +5,10 @@ import org.apache.ibatis.annotations.*;
 
 import java.util.List;
 
-@Mapper
+//@Mapper
 public interface DepartmentMapper {
 
-    @Select("select * from student")
+//    @Select("select * from student")
     public List<Student> getDeptById();
 
 
